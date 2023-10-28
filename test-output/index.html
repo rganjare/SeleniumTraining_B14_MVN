@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_Test" class="navigator-link">
+              <span class="suite-name border-failed">Regression Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_Test" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Test" class="hide-methods failed suite-Regression_Test"> (hide)</a> <!-- hide-methods failed suite-Regression_Test -->
+                      <a href="#" panel-name="suite-Regression_Test" class="show-methods failed suite-Regression_Test"> (show)</a> <!-- show-methods failed suite-Regression_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Test" title="com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro" class="method navigator-link" hash-for-method="provideFeedbackOnUrbanPro({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email...)">provideFeedbackOnUrbanPro({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Test" class="hide-methods passed suite-Regression_Test"> (hide)</a> <!-- hide-methods passed suite-Regression_Test -->
+                      <a href="#" panel-name="suite-Regression_Test" class="show-methods passed suite-Regression_Test"> (show)</a> <!-- show-methods passed suite-Regression_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Test" title="com.companyname.projectname.testcases.login.PostInquiry004POM" class="method navigator-link" hash-for-method="postInquiry004POM({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation T...)">postInquiry004POM({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Test" class="panel Regression_Test">
+          <div class="suite-Regression_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="provideFeedbackOnUrbanPro({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email...)">
+                  </a> <!-- provideFeedbackOnUrbanPro({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email...) -->
+                  <span class="method-name">provideFeedbackOnUrbanPro</span>
+                  <span class="parameters">({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email_ID=feedback@gmail.com, Password=passd1235, Message=NA, Sr.No=1, First_Name=Feedback})</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;&apos; is not a valid XPath expression.
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;13.6&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15538054d575a72f2872459523cce929, findElement {using=xpath, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/2c/k7rcd0wx405...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63355}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63355/devtoo..., se:cdpVersion: 118.0.5993.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15538054d575a72f2872459523cce929
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at com.companyname.projectname.utility.CommonMethods.selectByValue(CommonMethods.java:71)
+	at com.companyname.projectname.pages.UrbanProPage.provideFeedbackOnUrbanProPlatform(UrbanProPage.java:16)
+	at com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro.provideFeedbackOnUrbanPro(ProvideFeedbackOnUrbanPro.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(description-loginToInstagramWithValidCred)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Test-class-failed -->
+          <div class="suite-Regression_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.companyname.projectname.testcases.login.PostInquiry004POM</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postInquiry004POM({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation T...)">
+                  </a> <!-- postInquiry004POM({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation T...) -->
+                  <span class="method-name">postInquiry004POM</span>
+                  <span class="parameters">({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Question=Message_Pankaj, Email_ID=Pankaj@gmail.com, Password=passd1235, Sr.No=1, First_Name=Pankaj})</span>
+                  <em>
+(description-loginToInstagramWithValidCred)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Test-class-passed -->
+        </div> <!-- panel Regression_Test -->
+        <div panel-name="test-xml-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rganjare/eclipse/WorkSpace/SeleniumTraining_B14_MVN/src/test/resources/runner/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.companyname.projectname.listeners.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Inqury Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.companyname.projectname.testcases.login.PostInquiry004POM&quot;/&gt;
+      &lt;class name=&quot;com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Inqury Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Inqury Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Test');
+function tableData_Regression_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'postInquiry004POM')
+data.setCell(0, 2, 'com.companyname.projectname.testcases.login.PostInquiry004POM')
+data.setCell(0, 3, 5800);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'provideFeedbackOnUrbanPro')
+data.setCell(1, 2, 'com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro')
+data.setCell(1, 3, 1915);
+window.suiteTableData['Regression_Test']= { tableData: data, tableDiv: 'times-div-Regression_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Regression_Test">
+              </div> <!-- times-div-Regression_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.testcases.login.PostInquiry004POM</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">getTestCaseNameAndStartReporting</span>
+                <span class="method-start">793 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">postInquiry004POM({course=Selnium, Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation T...)</span>
+                <span class="method-start">11037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">16846 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">getTestCaseNameAndStartReporting</span>
+                <span class="method-start">17031 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">17040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">provideFeedbackOnUrbanPro({Phone_No=353535353, Page_Title=BYMAT Automation - Boost your Mind with Automation Technology, Email...)</span>
+                <span class="method-start">24848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">27135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.companyname.projectname.testcases.login.PostInquiry004POM</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">27342 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Test">
+	
+	<listeners>
+    <listener class-name="com.companyname.projectname.listeners.MyListeners" />
+   </listeners>
+
+	
+  <test thread-count="5" name="Inqury Test">
+	  
+    <classes>
+    <!--  <class name="com.companyname.projectname.testcases.login.PostInquiry001"/>
+      <class name="com.companyname.projectname.testcases.login.PostInquiry002"/>
+      <class name="com.companyname.projectname.testcases.login.PostInquiry003"/> --> 
+      
+       <class name="com.companyname.projectname.testcases.login.PostInquiry004POM"/>
+       <class name="com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro"/>
+       
+    </classes>
+    
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
