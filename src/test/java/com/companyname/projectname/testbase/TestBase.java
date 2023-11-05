@@ -68,7 +68,7 @@ public class TestBase {
 		System.out.println("OR file has been loaded");
 		
 		
-		excel = new ExcelReader("/Users/rganjare/eclipse/WorkSpace/SeleniumTraining_B14_MVN/src/test/resources/testData/Master_Sheet.xlsx");
+		excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/testData/Master_Sheet.xlsx");
 		
 		System.out.println("Master sheet loaded");
 		
