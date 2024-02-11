@@ -13,7 +13,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.SkipException;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -101,7 +100,6 @@ public class TestBase {
 		else {
 			//test.info("Skipping Test Case "+testCaseName+ " as it's Run Mode is set to No");
 			throw new SkipException("Skipping Test Case "+testCaseName+ " as it's Run Mode is set to No");
-			
 		}
 		
 	}
@@ -156,7 +154,7 @@ public class TestBase {
 		
 	}
 	
-	@AfterMethod
+	//@AfterMethod
 	public void quitDriver() {
 		//Thread.sleep(3000);
 		driver.quit();  // Kill the instance of driver	

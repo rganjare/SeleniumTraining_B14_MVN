@@ -10,7 +10,7 @@ import com.companyname.projectname.utility.CommonMethods;
 
 public class PostInquiry002 extends TestBase { // 1 to 1 Mapping // CTRL+Shift+O
 	
-
+	
 //	@Test (description = "description-loginToInstagramWithValidCred")
 	public void postInquiry002() throws IOException {
 //		
