@@ -6,6 +6,13 @@
   </listeners>
   <test name="Inqury Test(failed)">
     <classes>
+      <class name="com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro">
+        <methods>
+          <include name="getTestCaseNameAndStartReporting"/>
+          <include name="provideFeedbackOnUrbanPro" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro -->
       <class name="com.companyname.projectname.testcases.login.PostInquiry004POM">
         <methods>
           <include name="getTestCaseNameAndStartReporting"/>
@@ -14,13 +21,6 @@
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- com.companyname.projectname.testcases.login.PostInquiry004POM -->
-      <class name="com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro">
-        <methods>
-          <include name="getTestCaseNameAndStartReporting"/>
-          <include name="provideFeedbackOnUrbanPro" invocation-numbers="0"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro -->
     </classes>
   </test> <!-- Inqury Test(failed) -->
 </suite> <!-- Failed suite [Regression Test] -->
