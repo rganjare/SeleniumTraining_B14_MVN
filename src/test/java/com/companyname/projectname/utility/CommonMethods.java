@@ -96,7 +96,7 @@ public class CommonMethods extends TestBase {
 		
 	File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 	
-	File Dest = new File("/Users/rganjare/eclipse/WorkSpace/SeleniumTraining_B14_MVN/src/test/resources/screenShots/actulScreenShot" 
+	File Dest = new File(System.getProperty("user.dir") + "/src/test/resources/screenShots/actulScreenShot" 
 	//+ System.currentTimeMillis()+ ".png");
 			+ timeStamp+ ".png");
 	try {

@@ -18,6 +18,7 @@ public class MyListeners extends TestBase implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 
 		test.pass("Execution of Test case "+testCaseName +" is completed and it succeed" );
+		quitDriver();
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -25,6 +26,7 @@ public class MyListeners extends TestBase implements ITestListener {
 		test.fail("Execution of Test case "+testCaseName +" is Failed because " +result.getThrowable().getMessage());
 
 		CommonMethods.takeScreenShot();
+		quitDriver();
 		
 	}
 	

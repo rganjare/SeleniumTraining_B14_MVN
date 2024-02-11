@@ -2,13 +2,10 @@ package com.companyname.projectname.testcases.login;
 
 import java.io.IOException;
 import java.util.Hashtable;
-
 import org.testng.annotations.Test;
-
 import com.companyname.projectname.testbase.TestBase;
 
 public class PostInquiry004POM extends TestBase { // 1 to 1 Mapping // CTRL+Shift+O
-	
 
 	@Test (description = "description-loginToInstagramWithValidCred", dataProvider = "data_Collection")
 	public void postInquiry004POM(Hashtable<String, String> ht) throws IOException {

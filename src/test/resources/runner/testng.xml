@@ -11,10 +11,10 @@
   <test thread-count="5" name="Inqury Test">
 	  
     <classes>
-    <!--  <class name="com.companyname.projectname.testcases.login.PostInquiry001"/>
+   <!-- <class name="com.companyname.projectname.testcases.login.PostInquiry001"/>
       <class name="com.companyname.projectname.testcases.login.PostInquiry002"/>
-      <class name="com.companyname.projectname.testcases.login.PostInquiry003"/> --> 
-      
+      <class name="com.companyname.projectname.testcases.login.PostInquiry003"/>   -->
+            
        <class name="com.companyname.projectname.testcases.login.PostInquiry004POM"/>
        <class name="com.companyname.projectname.testcases.login.ProvideFeedbackOnUrbanPro"/>
        
