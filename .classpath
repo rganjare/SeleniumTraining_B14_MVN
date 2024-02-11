@@ -36,7 +36,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/rganjare/Desktop/Automation Testing/Selenium/Automation_Files/data-collection.jar"/>
-	<classpathentry kind="lib" path="/Users/rganjare/Desktop/Automation Testing/Selenium/Automation_Files/excel-reader.jar"/>
+	<classpathentry kind="lib" path="D:/BYMAT_Automation/Jar_Files/jarfile/data-collection.jar"/>
+	<classpathentry kind="lib" path="D:/BYMAT_Automation/Jar_Files/jarfile/excel-reader.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -3,13 +3,14 @@ package com.companyname.projectname.testcases.login;
 import java.io.IOException;
 import java.util.Hashtable;
 
+import org.testng.SkipException;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.companyname.projectname.testbase.TestBase;
 
 public class ProvideFeedbackOnUrbanPro extends TestBase { // 1 to 1 Mapping // CTRL+Shift+O
-	
-
+		
 	@Test (description = "description-loginToInstagramWithValidCred", dataProvider = "data_Collection")
 	public void provideFeedbackOnUrbanPro(Hashtable<String, String> ht) throws IOException {
 		
@@ -28,7 +29,7 @@ public class ProvideFeedbackOnUrbanPro extends TestBase { // 1 to 1 Mapping // C
 //		
 //		UrbanProPage.provideFeedbackOnUrbanProPlatform(ht);
 		
-			
+	// Adding new line to see the git changes		
 		
 //	test.pass("Staring Test case PostInquiry001" );
 		
